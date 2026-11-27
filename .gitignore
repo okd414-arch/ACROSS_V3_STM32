@@ -1,0 +1,19 @@
+# KiCad のロックファイル・ローカルの状態・履歴
+~*.lck
+*.kicad_prl
+kicad/.history/
+kicad/*-backups/
+kicad/バックアップ_*/
+kicad/ACROSS_V3.kicad_pcb1
+fp-info-cache
+*.bak
+*.bak?
+
+# 作業用 (再生成できるもの、セッションの一時ファイル)
+__pycache__/
+*.pyc
+.claude/
+kicad/work/
+
+# メーカーのデータシート (PDF) は入れない。一覧は データシート/README.md
+データシート/*.pdf

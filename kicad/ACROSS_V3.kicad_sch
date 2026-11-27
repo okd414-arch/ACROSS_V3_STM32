@@ -1,0 +1,353 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "51c71bd7-082e-50b5-bfc9-e38d265bca01")
+	(paper "A4")
+	(title_block
+		(title "ACROSS V3 - ルート")
+		(date "2026-11-13")
+		(rev "0.1")
+		(company "ACROSS V3")
+	)
+	(lib_symbols)
+	(text "ACROSS V3 (STM32MP157AAA3) 回路図\n24V入力 / STPMIC1 / DDR3L×2 / eMMC / LAN8720A / RGBパネル / 絶縁ドメインA〜D"
+		(exclude_from_sim no)
+		(at 22.86 25.4 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left top)
+		)
+		(uuid "14710d27-0a7a-5b39-a1ca-32d7e9dcae19")
+	)
+	(sheet
+		(at 127 88.9)
+		(size 38.1 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "08ba037a-d3f9-5b08-b923-84a619f922fb")
+		(property "Sheetname" "05 Ethernet LAN8720A・LCD・タッチ・バックライト"
+			(at 127 88.1884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "05_ethernet_LCD.kicad_sch"
+			(at 127 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ACROSS_V3"
+				(path "/51c71bd7-082e-50b5-bfc9-e38d265bca01"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 88.9)
+		(size 38.1 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "273867c8-f6d5-5c8f-a28f-8861cea0a460")
+		(property "Sheetname" "06 絶縁ドメインA サーボ (エンコーダ・パルス)"
+			(at 190.5 88.1884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "06_domA_servo.kicad_sch"
+			(at 190.5 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ACROSS_V3"
+				(path "/51c71bd7-082e-50b5-bfc9-e38d265bca01"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 88.9)
+		(size 38.1 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "36084661-7a1e-57e1-9154-e096c6f562ae")
+		(property "Sheetname" "04 SoC GPIO (ピン割当)・eMMC・microSD・USB・デバッグUART"
+			(at 63.5 88.1884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "04_soc_gpio_storage.kicad_sch"
+			(at 63.5 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ACROSS_V3"
+				(path "/51c71bd7-082e-50b5-bfc9-e38d265bca01"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 114.3)
+		(size 38.1 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3bfaa551-c7ce-5ef3-9638-3fd775794cd5")
+		(property "Sheetname" "07 GPS小基板接続・絶縁ドメインC (OC出力)・D (モニタTTL)"
+			(at 190.5 113.5884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "07_gps_domC_D.kicad_sch"
+			(at 190.5 127.5846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ACROSS_V3"
+				(path "/51c71bd7-082e-50b5-bfc9-e38d265bca01"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 63.5)
+		(size 38.1 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8deaba08-2940-5d42-9d0d-86b0d70d9aad")
+		(property "Sheetname" "03 DDR"
+			(at 190.5 62.7884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "03_ddr.kicad_sch"
+			(at 190.5 76.7846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ACROSS_V3"
+				(path "/51c71bd7-082e-50b5-bfc9-e38d265bca01"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 63.5)
+		(size 38.1 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "bdffe065-164c-5adc-b30c-df96dece00d4")
+		(property "Sheetname" "02 SoC 電源・システム (リセット・ブート・クロック)・LED・SWD"
+			(at 127 62.7884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "02_soc_power.kicad_sch"
+			(at 127 76.7846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ACROSS_V3"
+				(path "/51c71bd7-082e-50b5-bfc9-e38d265bca01"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 63.5)
+		(size 38.1 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f7d8483c-4e1c-5712-ac00-ed544aafba91")
+		(property "Sheetname" "01 電源入力 (24V・降圧5V・保護)・PMIC STPMIC1・取付穴"
+			(at 63.5 62.7884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "01_power_pmic.kicad_sch"
+			(at 63.5 76.7846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ACROSS_V3"
+				(path "/51c71bd7-082e-50b5-bfc9-e38d265bca01"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
